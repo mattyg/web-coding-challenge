@@ -32,7 +32,7 @@ The task is to implement an app that lists shops.
 
 ## Mockups
 
-(Note that the "dislike" button will be displayed but not actually do anything.)
+(Note that the "dislike" button will be displayed but not actually do anything)
 ![Main Page - List of shops sorted by popularity (popularity is the number of users who "like" the shop)](mockups/all_shops.png)
 
 
@@ -48,6 +48,8 @@ The task is to implement an app that lists shops.
 
 
 
+If a shop does not have an image, display the placeholder image shop-placeholder.png
+![Shop Placeholder](shop-placeholder.png)
 
 
 
@@ -81,3 +83,7 @@ If you have any questions or feedback, don't hesitate to contact me at matt.gabr
 ### Django
 - https://oncampus.oberlin.edu/webteam/2012/09/architecture-django-templates
 - http://django-best-practices.readthedocs.io/en/latest/
+
+
+## Licensing
+The image shop-placeholder.png is ["Store"](https://thenounproject.com/term/store/3279/) by Edward Boatman, from the Noun Project.
