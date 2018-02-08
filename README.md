@@ -38,7 +38,7 @@ The task is to implement an app that lists shops.
 ![My Preferred Shop page - List of my "liked" shops](mockups/my_preferred_shops.png)
 
 
-(The "demote administrator" button will be displayed but not actually do anything)
+(The "make user" button will be displayed but not actually do anything)
 ![Admin Settings page - List of Administrators and Users](mockups/admin_settings.png)
 
 
