@@ -13,6 +13,8 @@ The task is to implement an app that lists shops.
 
 - Git & Git Flow
 
+- Any additional libraries you want
+
 
 ## Features
 - As an Administrator, I can promote other users to administrator
