@@ -46,14 +46,7 @@ The task is to implement an app that lists shops.
 
 ## Application Data
 
-A json file with 100 shops is provided. You will need to import this data into your application back-end.
-
-    mongorestore --db shops shops/
-
-→→ A shop database will be created with a shops collection.
-
-→ → Dump File : [here](dump-shops.zip)
-
+A json file with 100 shops is provided. Administrators should be able to import this data into your application back-end.
 
 
 ## What we're looking for
