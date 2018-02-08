@@ -41,6 +41,7 @@ The task is to implement an app that lists shops.
 
 
 (The "make user" button will be displayed but not actually do anything)
+(The "Admin Settings" link is only shown to Administrators)
 ![Admin Settings page - List of Administrators and Users](mockups/admin_settings.png)
 
 
