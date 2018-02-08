@@ -16,7 +16,6 @@ The task is to implement an app that lists shops.
 
 ## Features
 - As an Administrator, I can promote other users to administrator
-- As an Administrator, I can demote other administrators to users
 - As an Administrator, I can load shops to the database, from an uploaded shops.json file.
 - As a User, I can sign up using my email & password
 - As a User, I can sign in using my email & password
@@ -39,7 +38,10 @@ The task is to implement an app that lists shops.
 ![My Preferred Shop page - List of my "liked" shops](mockups/my_preferred_shops.png)
 
 
+(The "demote administrator" button will be displayed but not actually do anything)
 ![Admin Settings page - List of Administrators and Users](mockups/admin_settings.png)
+
+
 
 
 ## Application Data
