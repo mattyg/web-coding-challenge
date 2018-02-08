@@ -18,7 +18,7 @@ The task is to implement an app that lists shops.
 
 ## Features
 - As an Administrator, I can promote other users to administrator
-- As an Administrator, I can load shops to the database, from an uploaded shops.json file.
+- As an Administrator, I can load shops to the database, from an uploaded json file (shops.json provided).
 - As a User, I can sign up using my email & password
 - As a User, I can sign in using my email & password
 - As a User, I can display the list of shops
@@ -32,10 +32,9 @@ The task is to implement an app that lists shops.
 
 ## Mockups
 
-
+(Note that the "dislike" button will be displayed but not actually do anything.)
 ![Main Page - List of shops sorted by popularity (popularity is the number of users who "like" the shop)](mockups/all_shops.png)
 
-Note that the "dislike" button will be displayed but not actually do anything.
 
 
 
@@ -44,10 +43,11 @@ Note that the "dislike" button will be displayed but not actually do anything.
 
 
 
-
+(Note that the "make user" button will be displayed but not actually do anything.)
+(Also note the "Admin Settings" link is only shown to Administrators.)
 ![Admin Settings page - List of Administrators and Users](mockups/admin_settings.png)
 
-Note that the "make user" button will be displayed but not actually do anything. Also note the "Admin Settings" link is only shown to Administrators.
+
 
 
 
