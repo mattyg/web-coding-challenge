@@ -33,16 +33,20 @@ The task is to implement an app that lists shops.
 ## Mockups
 
 
-- The "dislike" button will be displayed but not actually do anything.
 ![Main Page - List of shops sorted by popularity (popularity is the number of users who "like" the shop)](mockups/all_shops.png)
+Note that the "dislike" button will be displayed but not actually do anything.
+
+
 
 
 ![My Preferred Shop page - List of my "liked" shops](mockups/my_preferred_shops.png)
 
 
-- The "make user" button will be displayed but not actually do anything
-- The "Admin Settings" link is only shown to Administrators
+
+
 ![Admin Settings page - List of Administrators and Users](mockups/admin_settings.png)
+Note that the "make user" button will be displayed but not actually do anything. Also note the "Admin Settings" link is only shown to Administrators.
+
 
 
 
