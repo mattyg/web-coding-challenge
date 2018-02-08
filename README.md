@@ -1,14 +1,14 @@
 # Web Coding Challenge
 
 ## Idea of the app
-The task is to implement an app that lists shops nearby.
+The task is to implement an app that lists shops.
 
 
 ## Technologies to use
 
 - Python/Django
   - Backend : Django
-  - Frontend : VueJS
+  - Frontend : VueJS, Bootstrap 3
   - Database : MongoDB
 
 - Git & Git Flow
