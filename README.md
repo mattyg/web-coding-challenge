@@ -1,42 +1,26 @@
 # Web Coding Challenge
 
 ## Idea of the app
-The task is to implement an app that lists shops nearby. 
+The task is to implement an app that lists shops nearby.
 
 
 ## Technologies to use
 
-You can choose one the options listed below : 
-
-- Java/Spring :
-  - Backend : Spring Boot
-  - Frontend : Angular 4 || ReactJS || VueJS
-  - Database : MongoDB
-- Javascript
-  - Frontend : ReactJS || VueJS
-  - Backend : NodeJS (ExpressJS)
-  - Database : MongoDB
 - Python/Django
   - Backend : Django
-  - Frontend : Angular 4 || ReactJS || VueJS
+  - Frontend : VueJS
   - Database : MongoDB
-- RoR 
-  - Backend : Rails
-  - Frontend : Angular 4 || ReactJS || VueJS
-  - Database : MongoDB
-- PHP 
-  - Backend : Laravel || Symfony
-  - Frontend : Angular 4 || ReactJS || VueJS
-  - Database : MongoDB || MySQL
+
+- Git & Git Flow
 
 
 ## Features
 - As a User, I can sign up using my email & password
 - As a User, I can sign in using my email & password
-- As a User, I can display the list of shops sorted by distance
+- As a User, I can display the list of shops
 - As a User, I can like a shop, so it can be added to my preferred shops
   - Acceptance criteria: liked shops shouldn’t be displayed on the main page
-- As a User, I can dislike a shop, so it won’t be displayed within “Nearby Shops” list during the next 2 hours
+- As a User, I can dislike a shop, so it won’t be displayed within the main page shops list.
 - As a User, I can display the list of preferred shops
 - As a User, I can remove a shop from my preferred shops list
 
@@ -44,12 +28,12 @@ You can choose one the options listed below :
 ## Mockups
 
 
-![Main Page - List of shops neaby my location sorted by distance](https://d2mxuefqeaa7sj.cloudfront.net/s_42947E7C35A750A25D07D7432619573EA3862052B5357BE997A071FD6789712E_1510745488079_Assignment+-+FullStack+Web.png)
+![Main Page - List of shops sorted by popularity (popularity is the number of users who "like" the shop)](all_shops.png)
 
 
 
 
-![My Preferred Shop page - List of already preferred shops](https://d2mxuefqeaa7sj.cloudfront.net/s_42947E7C35A750A25D07D7432619573EA3862052B5357BE997A071FD6789712E_1510745502935_Assignment+-+FullStack+Web+copy.png)
+![My Preferred Shop page - List of my "liked" shops](my_preferred_shops.png)
 
 
 
@@ -57,7 +41,7 @@ You can choose one the options listed below :
 ## Application Data
 
 A MongoDB dump with ~300 shops is provided. To import the data, you need to extract the zip file then execute the command below :
- 
+
 
     mongorestore --db shops shops/
 
@@ -67,67 +51,27 @@ A MongoDB dump with ~300 shops is provided. To import the data, you need to extr
 
 
 
-## How we'll evaluate 🚨
-- Your code will be evaluated based on: code structure, programming best practices, legibility.
-- The git commit history will be also evaluated.
-- Do not forget documentation. Or how are we going to evaluate your work if we can't init the project on our machines?
-- Put more focus on code quality and less on speed. Don't hack something quickly, take your time and craft something clean.
+## What we're looking for
+- Clean, modular code structure, programming best practices, legibility.
+- Clean git commit history with feature and release branches following git flow best practices
+- Documentation, or how do we get your code running on our machine?
 
 
 ## Once you're done with the app
 
-Put the code of your project on Github and send the URL to zakaria@hiddenfounders.com
+Put the code of your project on Github and send the URL to matt.gabrenya@gmail.com
 
 
 ## Questions?
 
-If you have any questions or feedback, don't hesitate to contact us via zakaria@hiddenfounders.com
+If you have any questions or feedback, don't hesitate to contact me at matt.gabrenya@gmail.com
 
 
-## Useful links & resources
+## Best Practices Resources
 
-### Best Practices
+### Git Flow
+- https://danielkummer.github.io/git-flow-cheatsheet/
 
-- https://try.github.io/levels/1/challenges/1
-- https://github.com/noffle/art-of-readme
-- https://github.com/kamranahmedse/design-patterns-for-humans
-- https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf
-
-### Javascript
-
-- https://github.com/airbnb/javascript
-- https://github.com/verekia/js-stack-from-scratch/blob/master/README.md
-- https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer
-- https://github.com/i0natan/nodebestpractices
-- https://github.com/ryanmcdermott/clean-code-javascript
-
-### Vue
-
-- https://vuejs.org/v2/guide/
-- http://www.youtube.com/playlist?list=PL55RiY5tL51p-YU-Uw90qQH419BM4Iz07
-
-### React
-
-- https://github.com/enaqx/awesome-react
-- https://goo.gl/ZGhBGF
-- https://github.com/vasanthk/react-bits
-
-### Angular
-
-- https://github.com/gdi2290/awesome-angular
-- https://news.thisdot.co/angular-news-angular-4-lazy-loading-best-practices-native-mobile-apps-with-nativescript-c336097ef028
-
-### Java/Spring
-
-- https://github.com/cxxr/better-java
-- https://github.com/stunstunstun/awesome-spring-boot
-
-### PHP / Laravel / Symfony
-
-- https://github.com/ziadoz/awesome-php
-- https://github.com/sitepoint-editors/awesome-symfony
-- https://github.com/TimothyDJones/awesome-laravel
-- https://github.com/chiraggude/awesome-laravel
-
-
-That’s it ! May the force be with you !! 🖖 
+### Django
+- https://oncampus.oberlin.edu/webteam/2012/09/architecture-django-templates
+- http://django-best-practices.readthedocs.io/en/latest/
