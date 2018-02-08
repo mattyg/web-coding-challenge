@@ -8,40 +8,43 @@ The task is to implement an app that lists shops.
 
 - Python/Django
   - Backend : Django
-  - Frontend : VueJS, Bootstrap 3
-  - Database : MongoDB
+  - Frontend : VueJS, Bootstrap
+  - Database : MySQL | SQLite | MongoDB
 
 - Git & Git Flow
 
 
 ## Features
+- As an Administrator, I can promote other users to administrator
+- As an Administrator, I can demote other administrators to users
+- As an Administrator, I can load shops to the database, from an uploaded shops.json file.
 - As a User, I can sign up using my email & password
 - As a User, I can sign in using my email & password
 - As a User, I can display the list of shops
 - As a User, I can like a shop, so it can be added to my preferred shops
   - Acceptance criteria: liked shops shouldn’t be displayed on the main page
-- As a User, I can dislike a shop, so it won’t be displayed within the main page shops list.
 - As a User, I can display the list of preferred shops
 - As a User, I can remove a shop from my preferred shops list
+
+
 
 
 ## Mockups
 
 
-![Main Page - List of shops sorted by popularity (popularity is the number of users who "like" the shop)](all_shops.png)
+(The "dislike" button will be displayed but not actually do anything.)
+![Main Page - List of shops sorted by popularity (popularity is the number of users who "like" the shop)](mockups/all_shops.png)
 
 
+![My Preferred Shop page - List of my "liked" shops](mockups/my_preferred_shops.png)
 
 
-![My Preferred Shop page - List of my "liked" shops](my_preferred_shops.png)
-
-
+![Admin Settings page - List of Administrators and Users](mockups/admin_settings.png)
 
 
 ## Application Data
 
-A MongoDB dump with ~300 shops is provided. To import the data, you need to extract the zip file then execute the command below :
-
+A json file with 100 shops is provided. You will need to import this data into your application back-end.
 
     mongorestore --db shops shops/
 
