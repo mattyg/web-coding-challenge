@@ -6,10 +6,10 @@ The task is to implement an app that lists shops.
 
 ## Technologies to use
 
-- Python/Django
-  - Backend : Django
-  - Frontend : VueJS, Bootstrap
-  - Database : MySQL | SQLite | MongoDB
+
+- Backend : Django | Express | Laravel (your choice)
+- Frontend : VueJS and Bootstrap
+- Database : MySQL | PostgreSQL | MongoDB (your choice)
 
 - Git & Git Flow
 
