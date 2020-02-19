@@ -8,7 +8,8 @@ The task is to implement an app that lists shops.
 
 
 - Backend : Django | Express | Laravel (your choice)
-- Frontend : VueJS and Bootstrap
+- Frontend : VueJS 
+- Frontend Styling : Bootstrap | Material Design (your choice)
 - Database : MySQL | PostgreSQL | MongoDB (your choice)
 
 - Git & Git Flow
